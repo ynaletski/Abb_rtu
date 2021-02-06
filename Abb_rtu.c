@@ -1334,18 +1334,21 @@ void ReadFromABB (unsigned char number, unsigned char buf[])
     case 1:
       ConvToFloatVerify (&Sensor[number].data[1], buf[num+3],buf[num+2], buf[num+1], buf[num]);
 	    Sensor[number].avg[0]=Sensor[number].data[1];
+      //Sensor[number].avg[0]=0.45259;
 	    Sensor[number].evt=1;
     break;
 
     case 2:
       ConvToFloatVerify (&Sensor[number].data[2], buf[num+3],buf[num+2], buf[num+1], buf[num]);
 	    Sensor[number].avg[1]=Sensor[number].data[2];
+      //Sensor[number].avg[1]=1301.325;
 	    Sensor[number].evt=2;
     break;
 
     case 3:
       ConvToFloatVerify (&Sensor[number].data[3], buf[num+3],buf[num+2], buf[num+1], buf[num]);
 	    Sensor[number].avg[2]=Sensor[number].data[3];
+      //Sensor[number].avg[2]=-20;
 	    Sensor[number].evt=0;
     break;
 

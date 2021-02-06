@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "All_xa.C": "cpp",
-        "GASE.C": "cpp"
+        "GASE.C": "cpp",
+        "EG_NEW.C": "cpp",
+        "EGAS.C": "cpp"
     }
 }
